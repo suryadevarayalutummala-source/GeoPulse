@@ -1,0 +1,1602 @@
+[
+  {
+    "plot_id": "PLOT-101",
+    "cluster": "Old City",
+    "landmark": "Charminar",
+    "name": "Charminar",
+    "coordinates": {
+      "longitude": 78.4747,
+      "latitude": 17.3616
+    },
+    "area_sqft": 10000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.4747,
+            17.3616
+          ],
+          [
+            78.4752,
+            17.3616
+          ],
+          [
+            78.4752,
+            17.362099999999998
+          ],
+          [
+            78.4747,
+            17.362099999999998
+          ],
+          [
+            78.4747,
+            17.3616
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-102",
+    "cluster": "Old City",
+    "landmark": "Mecca Masjid",
+    "name": "Mecca Masjid",
+    "coordinates": {
+      "longitude": 78.4767,
+      "latitude": 17.3631
+    },
+    "area_sqft": 11500,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.4767,
+            17.3631
+          ],
+          [
+            78.4772,
+            17.3631
+          ],
+          [
+            78.4772,
+            17.363599999999998
+          ],
+          [
+            78.4767,
+            17.363599999999998
+          ],
+          [
+            78.4767,
+            17.3631
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-103",
+    "cluster": "Old City",
+    "landmark": "Malakpet Metro",
+    "name": "Malakpet Metro",
+    "coordinates": {
+      "longitude": 78.4787,
+      "latitude": 17.3646
+    },
+    "area_sqft": 13000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.4787,
+            17.3646
+          ],
+          [
+            78.4792,
+            17.3646
+          ],
+          [
+            78.4792,
+            17.365099999999998
+          ],
+          [
+            78.4787,
+            17.365099999999998
+          ],
+          [
+            78.4787,
+            17.3646
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-104",
+    "cluster": "Old City",
+    "landmark": "Afzalgunj Bus Station",
+    "name": "Afzalgunj Bus Station",
+    "coordinates": {
+      "longitude": 78.4807,
+      "latitude": 17.3661
+    },
+    "area_sqft": 14500,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.4807,
+            17.3661
+          ],
+          [
+            78.4812,
+            17.3661
+          ],
+          [
+            78.4812,
+            17.3666
+          ],
+          [
+            78.4807,
+            17.3666
+          ],
+          [
+            78.4807,
+            17.3661
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-105",
+    "cluster": "Old City",
+    "landmark": "Falaknuma Palace",
+    "name": "Falaknuma Palace",
+    "coordinates": {
+      "longitude": 78.4827,
+      "latitude": 17.3676
+    },
+    "area_sqft": 16000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.4827,
+            17.3676
+          ],
+          [
+            78.4832,
+            17.3676
+          ],
+          [
+            78.4832,
+            17.3681
+          ],
+          [
+            78.4827,
+            17.3681
+          ],
+          [
+            78.4827,
+            17.3676
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-106",
+    "cluster": "Banjara Hills / Jubilee Hills",
+    "landmark": "Road No.1",
+    "name": "Road No.1",
+    "coordinates": {
+      "longitude": 78.4378,
+      "latitude": 17.4239
+    },
+    "area_sqft": 10000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.4378,
+            17.4239
+          ],
+          [
+            78.4383,
+            17.4239
+          ],
+          [
+            78.4383,
+            17.4244
+          ],
+          [
+            78.4378,
+            17.4244
+          ],
+          [
+            78.4378,
+            17.4239
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-107",
+    "cluster": "Banjara Hills / Jubilee Hills",
+    "landmark": "Road No.12",
+    "name": "Road No.12",
+    "coordinates": {
+      "longitude": 78.4398,
+      "latitude": 17.4254
+    },
+    "area_sqft": 11500,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.4398,
+            17.4254
+          ],
+          [
+            78.44030000000001,
+            17.4254
+          ],
+          [
+            78.44030000000001,
+            17.4259
+          ],
+          [
+            78.4398,
+            17.4259
+          ],
+          [
+            78.4398,
+            17.4254
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-108",
+    "cluster": "Banjara Hills / Jubilee Hills",
+    "landmark": "Film Nagar",
+    "name": "Film Nagar",
+    "coordinates": {
+      "longitude": 78.4418,
+      "latitude": 17.4269
+    },
+    "area_sqft": 13000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.4418,
+            17.4269
+          ],
+          [
+            78.4423,
+            17.4269
+          ],
+          [
+            78.4423,
+            17.4274
+          ],
+          [
+            78.4418,
+            17.4274
+          ],
+          [
+            78.4418,
+            17.4269
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-109",
+    "cluster": "Banjara Hills / Jubilee Hills",
+    "landmark": "Jubilee Hills Check Post",
+    "name": "Jubilee Hills Check Post",
+    "coordinates": {
+      "longitude": 78.4438,
+      "latitude": 17.4284
+    },
+    "area_sqft": 14500,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.4438,
+            17.4284
+          ],
+          [
+            78.4443,
+            17.4284
+          ],
+          [
+            78.4443,
+            17.4289
+          ],
+          [
+            78.4438,
+            17.4289
+          ],
+          [
+            78.4438,
+            17.4284
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-110",
+    "cluster": "Banjara Hills / Jubilee Hills",
+    "landmark": "Peddamma Temple",
+    "name": "Peddamma Temple",
+    "coordinates": {
+      "longitude": 78.4458,
+      "latitude": 17.4299
+    },
+    "area_sqft": 16000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.4458,
+            17.4299
+          ],
+          [
+            78.44630000000001,
+            17.4299
+          ],
+          [
+            78.44630000000001,
+            17.4304
+          ],
+          [
+            78.4458,
+            17.4304
+          ],
+          [
+            78.4458,
+            17.4299
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-111",
+    "cluster": "Gachibowli / HITEC City",
+    "landmark": "HITEC City Metro",
+    "name": "HITEC City Metro",
+    "coordinates": {
+      "longitude": 78.3489,
+      "latitude": 17.4435
+    },
+    "area_sqft": 10000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.3489,
+            17.4435
+          ],
+          [
+            78.3494,
+            17.4435
+          ],
+          [
+            78.3494,
+            17.444
+          ],
+          [
+            78.3489,
+            17.444
+          ],
+          [
+            78.3489,
+            17.4435
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-112",
+    "cluster": "Gachibowli / HITEC City",
+    "landmark": "Gachibowli Stadium",
+    "name": "Gachibowli Stadium",
+    "coordinates": {
+      "longitude": 78.3509,
+      "latitude": 17.445
+    },
+    "area_sqft": 11500,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.3509,
+            17.445
+          ],
+          [
+            78.3514,
+            17.445
+          ],
+          [
+            78.3514,
+            17.4455
+          ],
+          [
+            78.3509,
+            17.4455
+          ],
+          [
+            78.3509,
+            17.445
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-113",
+    "cluster": "Gachibowli / HITEC City",
+    "landmark": "Financial District",
+    "name": "Financial District",
+    "coordinates": {
+      "longitude": 78.3529,
+      "latitude": 17.4465
+    },
+    "area_sqft": 13000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.3529,
+            17.4465
+          ],
+          [
+            78.35340000000001,
+            17.4465
+          ],
+          [
+            78.35340000000001,
+            17.447
+          ],
+          [
+            78.3529,
+            17.447
+          ],
+          [
+            78.3529,
+            17.4465
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-114",
+    "cluster": "Gachibowli / HITEC City",
+    "landmark": "Raidurg Metro",
+    "name": "Raidurg Metro",
+    "coordinates": {
+      "longitude": 78.3549,
+      "latitude": 17.448
+    },
+    "area_sqft": 14500,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.3549,
+            17.448
+          ],
+          [
+            78.3554,
+            17.448
+          ],
+          [
+            78.3554,
+            17.4485
+          ],
+          [
+            78.3549,
+            17.4485
+          ],
+          [
+            78.3549,
+            17.448
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-115",
+    "cluster": "Gachibowli / HITEC City",
+    "landmark": "Kondapur Botanical Garden",
+    "name": "Kondapur Botanical Garden",
+    "coordinates": {
+      "longitude": 78.3569,
+      "latitude": 17.4495
+    },
+    "area_sqft": 16000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.3569,
+            17.4495
+          ],
+          [
+            78.3574,
+            17.4495
+          ],
+          [
+            78.3574,
+            17.45
+          ],
+          [
+            78.3569,
+            17.45
+          ],
+          [
+            78.3569,
+            17.4495
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-116",
+    "cluster": "Kokapet / Narsingi",
+    "landmark": "Kokapet Neopolis",
+    "name": "Kokapet Neopolis",
+    "coordinates": {
+      "longitude": 78.332,
+      "latitude": 17.4
+    },
+    "area_sqft": 10000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.332,
+            17.4
+          ],
+          [
+            78.3325,
+            17.4
+          ],
+          [
+            78.3325,
+            17.400499999999997
+          ],
+          [
+            78.332,
+            17.400499999999997
+          ],
+          [
+            78.332,
+            17.4
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-117",
+    "cluster": "Kokapet / Narsingi",
+    "landmark": "Kokapet SEZ",
+    "name": "Kokapet SEZ",
+    "coordinates": {
+      "longitude": 78.334,
+      "latitude": 17.4015
+    },
+    "area_sqft": 11500,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.334,
+            17.4015
+          ],
+          [
+            78.3345,
+            17.4015
+          ],
+          [
+            78.3345,
+            17.401999999999997
+          ],
+          [
+            78.334,
+            17.401999999999997
+          ],
+          [
+            78.334,
+            17.4015
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-118",
+    "cluster": "Kokapet / Narsingi",
+    "landmark": "Narsingi Junction",
+    "name": "Narsingi Junction",
+    "coordinates": {
+      "longitude": 78.336,
+      "latitude": 17.403
+    },
+    "area_sqft": 13000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.336,
+            17.403
+          ],
+          [
+            78.3365,
+            17.403
+          ],
+          [
+            78.3365,
+            17.403499999999998
+          ],
+          [
+            78.336,
+            17.403499999999998
+          ],
+          [
+            78.336,
+            17.403
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-119",
+    "cluster": "Kokapet / Narsingi",
+    "landmark": "Puppalaguda",
+    "name": "Puppalaguda",
+    "coordinates": {
+      "longitude": 78.338,
+      "latitude": 17.4045
+    },
+    "area_sqft": 14500,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.338,
+            17.4045
+          ],
+          [
+            78.3385,
+            17.4045
+          ],
+          [
+            78.3385,
+            17.404999999999998
+          ],
+          [
+            78.338,
+            17.404999999999998
+          ],
+          [
+            78.338,
+            17.4045
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-120",
+    "cluster": "Kokapet / Narsingi",
+    "landmark": "ORR Exit",
+    "name": "ORR Exit",
+    "coordinates": {
+      "longitude": 78.34,
+      "latitude": 17.406
+    },
+    "area_sqft": 16000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.34,
+            17.406
+          ],
+          [
+            78.3405,
+            17.406
+          ],
+          [
+            78.3405,
+            17.406499999999998
+          ],
+          [
+            78.34,
+            17.406499999999998
+          ],
+          [
+            78.34,
+            17.406
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-121",
+    "cluster": "Gandipet / Manikonda",
+    "landmark": "MGIT Campus",
+    "name": "MGIT Campus",
+    "coordinates": {
+      "longitude": 78.319,
+      "latitude": 17.392
+    },
+    "area_sqft": 10000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.319,
+            17.392
+          ],
+          [
+            78.3195,
+            17.392
+          ],
+          [
+            78.3195,
+            17.3925
+          ],
+          [
+            78.319,
+            17.3925
+          ],
+          [
+            78.319,
+            17.392
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-122",
+    "cluster": "Gandipet / Manikonda",
+    "landmark": "CBIT Campus",
+    "name": "CBIT Campus",
+    "coordinates": {
+      "longitude": 78.321,
+      "latitude": 17.3935
+    },
+    "area_sqft": 11500,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.321,
+            17.3935
+          ],
+          [
+            78.3215,
+            17.3935
+          ],
+          [
+            78.3215,
+            17.394
+          ],
+          [
+            78.321,
+            17.394
+          ],
+          [
+            78.321,
+            17.3935
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-123",
+    "cluster": "Gandipet / Manikonda",
+    "landmark": "Osman Sagar",
+    "name": "Osman Sagar",
+    "coordinates": {
+      "longitude": 78.323,
+      "latitude": 17.395
+    },
+    "area_sqft": 13000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.323,
+            17.395
+          ],
+          [
+            78.3235,
+            17.395
+          ],
+          [
+            78.3235,
+            17.3955
+          ],
+          [
+            78.323,
+            17.3955
+          ],
+          [
+            78.323,
+            17.395
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-124",
+    "cluster": "Gandipet / Manikonda",
+    "landmark": "Gandipet Park",
+    "name": "Gandipet Park",
+    "coordinates": {
+      "longitude": 78.325,
+      "latitude": 17.3965
+    },
+    "area_sqft": 14500,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.325,
+            17.3965
+          ],
+          [
+            78.3255,
+            17.3965
+          ],
+          [
+            78.3255,
+            17.397
+          ],
+          [
+            78.325,
+            17.397
+          ],
+          [
+            78.325,
+            17.3965
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-125",
+    "cluster": "Gandipet / Manikonda",
+    "landmark": "Alkapur Township",
+    "name": "Alkapur Township",
+    "coordinates": {
+      "longitude": 78.327,
+      "latitude": 17.398
+    },
+    "area_sqft": 16000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.327,
+            17.398
+          ],
+          [
+            78.3275,
+            17.398
+          ],
+          [
+            78.3275,
+            17.3985
+          ],
+          [
+            78.327,
+            17.3985
+          ],
+          [
+            78.327,
+            17.398
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-126",
+    "cluster": "Kompally / Medchal",
+    "landmark": "Kompally",
+    "name": "Kompally",
+    "coordinates": {
+      "longitude": 78.487,
+      "latitude": 17.542
+    },
+    "area_sqft": 10000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.487,
+            17.542
+          ],
+          [
+            78.4875,
+            17.542
+          ],
+          [
+            78.4875,
+            17.5425
+          ],
+          [
+            78.487,
+            17.5425
+          ],
+          [
+            78.487,
+            17.542
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-127",
+    "cluster": "Kompally / Medchal",
+    "landmark": "Suchitra Circle",
+    "name": "Suchitra Circle",
+    "coordinates": {
+      "longitude": 78.489,
+      "latitude": 17.5435
+    },
+    "area_sqft": 11500,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.489,
+            17.5435
+          ],
+          [
+            78.4895,
+            17.5435
+          ],
+          [
+            78.4895,
+            17.544
+          ],
+          [
+            78.489,
+            17.544
+          ],
+          [
+            78.489,
+            17.5435
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-128",
+    "cluster": "Kompally / Medchal",
+    "landmark": "Medchal Industrial Area",
+    "name": "Medchal Industrial Area",
+    "coordinates": {
+      "longitude": 78.491,
+      "latitude": 17.545
+    },
+    "area_sqft": 13000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.491,
+            17.545
+          ],
+          [
+            78.4915,
+            17.545
+          ],
+          [
+            78.4915,
+            17.5455
+          ],
+          [
+            78.491,
+            17.5455
+          ],
+          [
+            78.491,
+            17.545
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-129",
+    "cluster": "Kompally / Medchal",
+    "landmark": "Gundlapochampally",
+    "name": "Gundlapochampally",
+    "coordinates": {
+      "longitude": 78.493,
+      "latitude": 17.5465
+    },
+    "area_sqft": 14500,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.493,
+            17.5465
+          ],
+          [
+            78.4935,
+            17.5465
+          ],
+          [
+            78.4935,
+            17.547
+          ],
+          [
+            78.493,
+            17.547
+          ],
+          [
+            78.493,
+            17.5465
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-130",
+    "cluster": "Kompally / Medchal",
+    "landmark": "Jeedimetla",
+    "name": "Jeedimetla",
+    "coordinates": {
+      "longitude": 78.495,
+      "latitude": 17.548
+    },
+    "area_sqft": 16000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.495,
+            17.548
+          ],
+          [
+            78.4955,
+            17.548
+          ],
+          [
+            78.4955,
+            17.548499999999997
+          ],
+          [
+            78.495,
+            17.548499999999997
+          ],
+          [
+            78.495,
+            17.548
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-131",
+    "cluster": "Uppal / LB Nagar",
+    "landmark": "Uppal Metro",
+    "name": "Uppal Metro",
+    "coordinates": {
+      "longitude": 78.56,
+      "latitude": 17.4
+    },
+    "area_sqft": 10000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.56,
+            17.4
+          ],
+          [
+            78.5605,
+            17.4
+          ],
+          [
+            78.5605,
+            17.400499999999997
+          ],
+          [
+            78.56,
+            17.400499999999997
+          ],
+          [
+            78.56,
+            17.4
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-132",
+    "cluster": "Uppal / LB Nagar",
+    "landmark": "Rajiv Gandhi Cricket Stadium",
+    "name": "Rajiv Gandhi Cricket Stadium",
+    "coordinates": {
+      "longitude": 78.562,
+      "latitude": 17.4015
+    },
+    "area_sqft": 11500,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.562,
+            17.4015
+          ],
+          [
+            78.5625,
+            17.4015
+          ],
+          [
+            78.5625,
+            17.401999999999997
+          ],
+          [
+            78.562,
+            17.401999999999997
+          ],
+          [
+            78.562,
+            17.4015
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-133",
+    "cluster": "Uppal / LB Nagar",
+    "landmark": "Nagole Metro",
+    "name": "Nagole Metro",
+    "coordinates": {
+      "longitude": 78.564,
+      "latitude": 17.403
+    },
+    "area_sqft": 13000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.564,
+            17.403
+          ],
+          [
+            78.5645,
+            17.403
+          ],
+          [
+            78.5645,
+            17.403499999999998
+          ],
+          [
+            78.564,
+            17.403499999999998
+          ],
+          [
+            78.564,
+            17.403
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-134",
+    "cluster": "Uppal / LB Nagar",
+    "landmark": "LB Nagar Junction",
+    "name": "LB Nagar Junction",
+    "coordinates": {
+      "longitude": 78.566,
+      "latitude": 17.4045
+    },
+    "area_sqft": 14500,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.566,
+            17.4045
+          ],
+          [
+            78.5665,
+            17.4045
+          ],
+          [
+            78.5665,
+            17.404999999999998
+          ],
+          [
+            78.566,
+            17.404999999999998
+          ],
+          [
+            78.566,
+            17.4045
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-135",
+    "cluster": "Uppal / LB Nagar",
+    "landmark": "Habsiguda",
+    "name": "Habsiguda",
+    "coordinates": {
+      "longitude": 78.568,
+      "latitude": 17.406
+    },
+    "area_sqft": 16000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.568,
+            17.406
+          ],
+          [
+            78.5685,
+            17.406
+          ],
+          [
+            78.5685,
+            17.406499999999998
+          ],
+          [
+            78.568,
+            17.406499999999998
+          ],
+          [
+            78.568,
+            17.406
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-136",
+    "cluster": "Shamshabad",
+    "landmark": "RGIA Airport",
+    "name": "RGIA Airport",
+    "coordinates": {
+      "longitude": 78.4294,
+      "latitude": 17.2403
+    },
+    "area_sqft": 10000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.4294,
+            17.2403
+          ],
+          [
+            78.4299,
+            17.2403
+          ],
+          [
+            78.4299,
+            17.2408
+          ],
+          [
+            78.4294,
+            17.2408
+          ],
+          [
+            78.4294,
+            17.2403
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-137",
+    "cluster": "Shamshabad",
+    "landmark": "Airport Cargo Terminal",
+    "name": "Airport Cargo Terminal",
+    "coordinates": {
+      "longitude": 78.4314,
+      "latitude": 17.2418
+    },
+    "area_sqft": 11500,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.4314,
+            17.2418
+          ],
+          [
+            78.4319,
+            17.2418
+          ],
+          [
+            78.4319,
+            17.2423
+          ],
+          [
+            78.4314,
+            17.2423
+          ],
+          [
+            78.4314,
+            17.2418
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-138",
+    "cluster": "Shamshabad",
+    "landmark": "Hardware Park",
+    "name": "Hardware Park",
+    "coordinates": {
+      "longitude": 78.4334,
+      "latitude": 17.2433
+    },
+    "area_sqft": 13000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.4334,
+            17.2433
+          ],
+          [
+            78.43390000000001,
+            17.2433
+          ],
+          [
+            78.43390000000001,
+            17.2438
+          ],
+          [
+            78.4334,
+            17.2438
+          ],
+          [
+            78.4334,
+            17.2433
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-139",
+    "cluster": "Shamshabad",
+    "landmark": "Pharma City",
+    "name": "Pharma City",
+    "coordinates": {
+      "longitude": 78.4354,
+      "latitude": 17.2448
+    },
+    "area_sqft": 14500,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.4354,
+            17.2448
+          ],
+          [
+            78.4359,
+            17.2448
+          ],
+          [
+            78.4359,
+            17.2453
+          ],
+          [
+            78.4354,
+            17.2453
+          ],
+          [
+            78.4354,
+            17.2448
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "plot_id": "PLOT-140",
+    "cluster": "Shamshabad",
+    "landmark": "Shamshabad Town",
+    "name": "Shamshabad Town",
+    "coordinates": {
+      "longitude": 78.4374,
+      "latitude": 17.2463
+    },
+    "area_sqft": 16000,
+    "zoning_type": "Mixed Use",
+    "ownership_status": "Private",
+    "plot_boundary_geojson": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.4374,
+            17.2463
+          ],
+          [
+            78.4379,
+            17.2463
+          ],
+          [
+            78.4379,
+            17.2468
+          ],
+          [
+            78.4374,
+            17.2468
+          ],
+          [
+            78.4374,
+            17.2463
+          ]
+        ]
+      ]
+    }
+  }
+]

@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+requests
+shapely
+pyproj
+geopandas
+pandas
+pydantic
+pytest
+colorama
