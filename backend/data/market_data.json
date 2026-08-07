@@ -1,0 +1,722 @@
+[
+  {
+    "plot_id": "PLOT-101",
+    "current_price_sqft": 6500,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 3.8,
+    "roi_percentage": 12.5,
+    "risk_score": 20,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-102",
+    "current_price_sqft": 6800,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 3.9,
+    "roi_percentage": 12.8,
+    "risk_score": 19,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-103",
+    "current_price_sqft": 7100,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.0,
+    "roi_percentage": 13.1,
+    "risk_score": 18,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-104",
+    "current_price_sqft": 7400,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.1,
+    "roi_percentage": 13.4,
+    "risk_score": 17,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-105",
+    "current_price_sqft": 7700,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.2,
+    "roi_percentage": 13.7,
+    "risk_score": 16,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-106",
+    "current_price_sqft": 12000,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 3.8,
+    "roi_percentage": 12.5,
+    "risk_score": 20,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-107",
+    "current_price_sqft": 12300,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 3.9,
+    "roi_percentage": 12.8,
+    "risk_score": 19,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-108",
+    "current_price_sqft": 12600,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.0,
+    "roi_percentage": 13.1,
+    "risk_score": 18,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-109",
+    "current_price_sqft": 12900,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.1,
+    "roi_percentage": 13.4,
+    "risk_score": 17,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-110",
+    "current_price_sqft": 13200,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.2,
+    "roi_percentage": 13.7,
+    "risk_score": 16,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-111",
+    "current_price_sqft": 11000,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 3.8,
+    "roi_percentage": 12.5,
+    "risk_score": 20,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-112",
+    "current_price_sqft": 11300,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 3.9,
+    "roi_percentage": 12.8,
+    "risk_score": 19,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-113",
+    "current_price_sqft": 11600,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.0,
+    "roi_percentage": 13.1,
+    "risk_score": 18,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-114",
+    "current_price_sqft": 11900,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.1,
+    "roi_percentage": 13.4,
+    "risk_score": 17,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-115",
+    "current_price_sqft": 12200,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.2,
+    "roi_percentage": 13.7,
+    "risk_score": 16,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-116",
+    "current_price_sqft": 13000,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 3.8,
+    "roi_percentage": 12.5,
+    "risk_score": 20,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-117",
+    "current_price_sqft": 13300,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 3.9,
+    "roi_percentage": 12.8,
+    "risk_score": 19,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-118",
+    "current_price_sqft": 13600,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.0,
+    "roi_percentage": 13.1,
+    "risk_score": 18,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-119",
+    "current_price_sqft": 13900,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.1,
+    "roi_percentage": 13.4,
+    "risk_score": 17,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-120",
+    "current_price_sqft": 14200,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.2,
+    "roi_percentage": 13.7,
+    "risk_score": 16,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-121",
+    "current_price_sqft": 9000,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 3.8,
+    "roi_percentage": 12.5,
+    "risk_score": 20,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-122",
+    "current_price_sqft": 9300,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 3.9,
+    "roi_percentage": 12.8,
+    "risk_score": 19,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-123",
+    "current_price_sqft": 9600,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.0,
+    "roi_percentage": 13.1,
+    "risk_score": 18,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-124",
+    "current_price_sqft": 9900,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.1,
+    "roi_percentage": 13.4,
+    "risk_score": 17,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-125",
+    "current_price_sqft": 10200,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.2,
+    "roi_percentage": 13.7,
+    "risk_score": 16,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-126",
+    "current_price_sqft": 7000,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 3.8,
+    "roi_percentage": 12.5,
+    "risk_score": 20,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-127",
+    "current_price_sqft": 7300,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 3.9,
+    "roi_percentage": 12.8,
+    "risk_score": 19,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-128",
+    "current_price_sqft": 7600,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.0,
+    "roi_percentage": 13.1,
+    "risk_score": 18,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-129",
+    "current_price_sqft": 7900,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.1,
+    "roi_percentage": 13.4,
+    "risk_score": 17,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-130",
+    "current_price_sqft": 8200,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.2,
+    "roi_percentage": 13.7,
+    "risk_score": 16,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-131",
+    "current_price_sqft": 8000,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 3.8,
+    "roi_percentage": 12.5,
+    "risk_score": 20,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-132",
+    "current_price_sqft": 8300,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 3.9,
+    "roi_percentage": 12.8,
+    "risk_score": 19,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-133",
+    "current_price_sqft": 8600,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.0,
+    "roi_percentage": 13.1,
+    "risk_score": 18,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-134",
+    "current_price_sqft": 8900,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.1,
+    "roi_percentage": 13.4,
+    "risk_score": 17,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-135",
+    "current_price_sqft": 9200,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.2,
+    "roi_percentage": 13.7,
+    "risk_score": 16,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-136",
+    "current_price_sqft": 7500,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 3.8,
+    "roi_percentage": 12.5,
+    "risk_score": 20,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-137",
+    "current_price_sqft": 7800,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 3.9,
+    "roi_percentage": 12.8,
+    "risk_score": 19,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-138",
+    "current_price_sqft": 8100,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.0,
+    "roi_percentage": 13.1,
+    "risk_score": 18,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-139",
+    "current_price_sqft": 8400,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.1,
+    "roi_percentage": 13.4,
+    "risk_score": 17,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  },
+  {
+    "plot_id": "PLOT-140",
+    "current_price_sqft": 8700,
+    "historical_growth_rates": [
+      8.2,
+      9.1,
+      10.4
+    ],
+    "future_growth_prediction": 11.2,
+    "rental_yield_percentage": 4.2,
+    "roi_percentage": 13.7,
+    "risk_score": 16,
+    "infrastructure_development_pipeline": [
+      "Metro Expansion",
+      "Road Upgrade"
+    ],
+    "market_summary": "High growth locality"
+  }
+]
