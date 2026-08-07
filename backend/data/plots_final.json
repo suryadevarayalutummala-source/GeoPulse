@@ -1,0 +1,50 @@
+[
+  {
+    "plot_id": "plot-old-city",
+    "name": "Charminar Heritage Plot",
+    "locality": "Old City (Charminar/Malakpet)",
+    "coordinates": { "longitude": 78.4747, "latitude": 17.3616 }
+  },
+  {
+    "plot_id": "plot-banjara-hills",
+    "name": "Banjara Hills Premium Parcel",
+    "locality": "Banjara Hills/Jubilee Hills",
+    "coordinates": { "longitude": 78.4482, "latitude": 17.4156 }
+  },
+  {
+    "plot_id": "plot-gachibowli",
+    "name": "Gachibowli IT Corridor Plot",
+    "locality": "Gachibowli/HITEC City",
+    "coordinates": { "longitude": 78.3489, "latitude": 17.4401 }
+  },
+  {
+    "plot_id": "plot-kokapet",
+    "name": "Kokapet Growth Corridor Plot",
+    "locality": "Kokapet/Narsingi",
+    "coordinates": { "longitude": 78.3340, "latitude": 17.3850 }
+  },
+  {
+    "plot_id": "plot-gandipet",
+    "name": "Gandipet Lake-Adjacent Plot",
+    "locality": "Gandipet/Manikonda",
+    "coordinates": { "longitude": 78.3200, "latitude": 17.3800 }
+  },
+  {
+    "plot_id": "plot-kompally",
+    "name": "Kompally Suburban Residential Plot",
+    "locality": "Kompally/Medchal",
+    "coordinates": { "longitude": 78.4850, "latitude": 17.5400 }
+  },
+  {
+    "plot_id": "plot-uppal",
+    "name": "Uppal Mixed-Use Fringe Plot",
+    "locality": "Uppal/LB Nagar",
+    "coordinates": { "longitude": 78.5580, "latitude": 17.3980 }
+  },
+  {
+    "plot_id": "plot-shamshabad",
+    "name": "Shamshabad Airport SEZ Plot",
+    "locality": "Shamshabad",
+    "coordinates": { "longitude": 78.4294, "latitude": 17.2403 }
+  }
+]
