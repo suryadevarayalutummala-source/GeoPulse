@@ -1,0 +1,122 @@
+@import 'mapbox-gl/dist/mapbox-gl.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #F4EFE5;
+    color: #182A1B;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Light Warm Beige-Greenish Glassmorphism & Utilities */
+.glass-panel {
+  background: rgba(239, 234, 224, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(84, 133, 78, 0.22);
+}
+
+.glass-card {
+  background: rgba(228, 221, 208, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(84, 133, 78, 0.18);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card:hover {
+  background: rgba(220, 212, 197, 0.95);
+  border-color: rgba(61, 104, 56, 0.45);
+  box-shadow: 0 10px 25px -5px rgba(24, 42, 27, 0.12), 0 0 18px 0 rgba(84, 133, 78, 0.18);
+}
+
+.glass-input {
+  background: rgba(244, 239, 229, 0.95);
+  border: 1px solid rgba(84, 133, 78, 0.3);
+  color: #182A1B;
+}
+
+.glass-input:focus {
+  border-color: #54854E;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(84, 133, 78, 0.25);
+}
+
+/* Custom Scrollbar - Sage & Beige */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(244, 239, 229, 0.8);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(158, 190, 152, 0.8);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(84, 133, 78, 0.8);
+}
+
+/* Mapbox GL JS Custom Popup Styling - Warm Light Beige & Forest Green */
+.mapboxgl-popup-content {
+  background: rgba(249, 245, 236, 0.98) !important;
+  color: #182A1B !important;
+  border: 1.5px solid rgba(84, 133, 78, 0.35);
+  backdrop-filter: blur(16px);
+  border-radius: 16px !important;
+  box-shadow: 0 16px 28px -4px rgba(24, 42, 27, 0.18), 0 0 15px rgba(84, 133, 78, 0.15) !important;
+  padding: 14px !important;
+}
+
+.mapboxgl-popup-anchor-top .mapboxgl-popup-tip {
+  border-bottom-color: rgba(249, 245, 236, 0.98) !important;
+}
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
+  border-top-color: rgba(249, 245, 236, 0.98) !important;
+}
+.mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
+  border-right-color: rgba(249, 245, 236, 0.98) !important;
+}
+.mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
+  border-left-color: rgba(249, 245, 236, 0.98) !important;
+}
+.mapboxgl-popup-close-button {
+  color: #473C2F !important;
+  font-size: 16px !important;
+  padding: 4px 8px !important;
+  border-radius: 50%;
+}
+.mapboxgl-popup-close-button:hover {
+  background: rgba(84, 133, 78, 0.2);
+  color: #182A1B !important;
+}
+
+/* Marker pulse animation - Light Sage Glow */
+@keyframes geo-pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(84, 133, 78, 0.65);
+  }
+  70% {
+    transform: scale(1.18);
+    box-shadow: 0 0 0 14px rgba(84, 133, 78, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(84, 133, 78, 0);
+  }
+}
+.marker-pulse {
+  animation: geo-pulse 2s infinite;
+}
