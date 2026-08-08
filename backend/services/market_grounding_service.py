@@ -19,7 +19,7 @@ from google.genai import types
 
 logger = logging.getLogger(__name__)
 
-MODEL_NAME = "gemini-2.5-flash"
+MODEL_NAME = "gemini-3.5-flash-lite"
 
 # Shared with ai_fallback_service consumers — keyed by rounded lon/lat
 market_spatial_cache: dict[str, dict[str, Any]] = {}

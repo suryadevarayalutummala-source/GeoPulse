@@ -132,9 +132,11 @@ export default function AiChatAdvisor({ selectedPlot, activeRole, setActiveRole 
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          plot_id: selectedPlot.plot_id,
+          longitude: selectedPlot.coordinates[0],
+          latitude: selectedPlot.coordinates[1],
           role: activeRole,
-          message: text
+          message: text,
+          locality_name: selectedPlot.locality
         })
       });
       const data = await res.json();

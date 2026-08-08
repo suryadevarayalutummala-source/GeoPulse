@@ -15,7 +15,7 @@ from services.ai_prompt_service import generate_chat_prompt, generate_role_promp
 
 logger = logging.getLogger(__name__)
 
-MODEL_NAME = "gemini-2.5-flash"
+MODEL_NAME = "gemini-3.5-flash-lite"
 
 
 def _get_client() -> genai.Client:

@@ -146,20 +146,31 @@ export default function MapView({ plots = [], selectedPlot = null, onSelect = ()
 
   useEffect(() => {
     const map = mapRef.current;
-    if (!map || !mapLoaded || !selectedPlot) return;
+    if (!map || !selectedPlot) return;
 
     const center = toLngLat(selectedPlot.coordinates);
+    const flyToSelectedPlot = () => {
+      map.flyTo({
+        center,
+        zoom: 14.5,
+        pitch: 50,
+        bearing: 15,
+        speed: 1.2,
+        curve: 1.4,
+        essential: true
+      });
+    };
 
-    map.flyTo({
-      center,
-      zoom: 14.5,
-      pitch: 50,
-      bearing: 15,
-      speed: 1.2,
-      curve: 1.4,
-      essential: true
-    });
-  }, [selectedPlot, mapLoaded]);
+    if (map.loaded()) {
+      flyToSelectedPlot();
+    } else {
+      map.once('load', flyToSelectedPlot);
+    }
+
+    return () => {
+      map.off('load', flyToSelectedPlot);
+    };
+  }, [selectedPlot]);
 
   // Render Markers
   useEffect(() => {
@@ -199,6 +210,16 @@ export default function MapView({ plots = [], selectedPlot = null, onSelect = ()
         e.stopPropagation();
         onSelect(plot);
         showPopup(map, plot, lngLat);
+
+        map.flyTo({
+          center: lngLat,
+          zoom: 14.5,
+          pitch: 50,
+          bearing: 15,
+          speed: 1.2,
+          curve: 1.4,
+          essential: true
+        });
       });
 
       const marker = new mapboxgl.Marker({ element: el })
