@@ -116,42 +116,50 @@ export default function AiChatAdvisor({ selectedPlot, activeRole, setActiveRole 
     ]);
   };
 
-  const handleSendMessage = (textToSend = inputValue) => {
+  const handleSendMessage = async (textToSend = inputValue) => {
     const text = textToSend.trim();
     if (!text) return;
-
     const userMsg = {
       sender: 'user',
       text,
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
     };
-
     setMessages((prev) => [...prev, userMsg]);
     setInputValue('');
     setIsTyping(true);
-
-    setTimeout(() => {
-      let aiResponseText = '';
-
-      if (activeRole === 'builder') {
-        aiResponseText = `Based on geotechnical analysis for **${selectedPlot.name}** (${selectedPlot.plot_id}):\n- **Foundation Strategy**: With a soil bearing capacity of **${selectedPlot.bearing_capacity_kpa} kPa** (${selectedPlot.soil_type}), deep raft foundation with micro-piles is recommended for up to **${selectedPlot.max_permissible_floors} floors**.\n- **Water Table**: Depth is recorded at **${selectedPlot.water_table_depth_m}m**, requiring standard sub-surface waterproofing for basement parking levels.\n- **Estimated Construction Cost**: Baseline structure cost is **₹${selectedPlot.construction_cost_estimate_per_sqft}/sqft** with full access to high-tension power line and storm drain grid.`;
-      } else if (activeRole === 'homebuyer') {
-        aiResponseText = `Here is your livability assessment for **${selectedPlot.name}** in **${selectedPlot.locality}**:\n- **Parks & Greenery**: Surrounding area features abundant parklands and eco-buffer zones ideal for residential living.\n- **Connectivity**: Commute time to the main business corridor is only **${selectedPlot.commute_time_to_city_center_min} minutes**.\n- **Social Infrastructure**: Excellent proximity with **${selectedPlot.schools_nearby} reputed schools** and hospital access within **${selectedPlot.nearest_hospital_km} km**.`;
-      } else {
-        aiResponseText = `Investment Analysis for **${selectedPlot.name}** (${selectedPlot.zoning_type} Zone):\n- **Appreciation Outlook**: Currently priced at **₹${selectedPlot.current_price_sqft}/sqft**, yielding a projected **5-year ROI of ${selectedPlot.roi_percentage}%**.\n- **Rental Yield**: Strong commercial/mixed rental yield of **${selectedPlot.rental_yield_percentage}%**.\n- **Catalysts**: Value driver supported by key pipeline projects: ${selectedPlot.infrastructure_development_pipeline.join(', ')}.`;
-      }
-
+    try {
+      const res = await fetch('/api/v1/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          plot_id: selectedPlot.plot_id,
+          role: activeRole,
+          message: text
+        })
+      });
+      const data = await res.json();
       setMessages((prev) => [
         ...prev,
         {
           sender: 'ai',
-          text: aiResponseText,
+          text: data.answer || 'Sorry, I could not generate a response right now.',
           timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
         }
       ]);
-      setIsTyping(false);
-    }, 1000);
-  };
+    } catch (err) {
+      console.error('AI chat fetch failed:', err);
+      setMessages((prev) => [
+        ...prev,
+        {
+          sender: 'ai',
+          text: 'Sorry, I ran into an issue reaching the AI advisor. Please try again.',
+timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+      }
+    ]);
+  } finally {
+    setIsTyping(false);
+  }
+};
 
   return (
     <div id="ai-advisor-section" className="w-full glass-panel rounded-2xl border border-forest-600/20 p-4 lg:p-5 shadow-sm flex flex-col space-y-4">

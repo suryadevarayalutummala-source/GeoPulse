@@ -383,3 +383,159 @@ export const PLOTS_DATA = [
     commute_time_to_city_center_min: 25
   }
 ];
+const clusterToLocality = {
+  "Old City": "Old City (Charminar / Malakpet)",
+  "Banjara Hills": "Banjara Hills / Jubilee Hills",
+  "Jubilee Hills": "Banjara Hills / Jubilee Hills",
+  "Gachibowli": "Gachibowli / HITEC City",
+  "HITEC City": "Gachibowli / HITEC City",
+  "Kokapet": "Kokapet / Narsingi",
+  "Narsingi": "Kokapet / Narsingi",
+  "Gandipet": "Gandipet / Manikonda",
+  "Manikonda": "Gandipet / Manikonda",
+  "Kompally": "Kompally / Medchal",
+  "Medchal": "Kompally / Medchal",
+  "Uppal": "Uppal / LB Nagar",
+  "LB Nagar": "Uppal / LB Nagar",
+  "Shamshabad": "Shamshabad",
+};
+
+
+/**
+ * Maps incoming Pydantic `PlotData` / `PlotCore` JSON from FastAPI to the UI state model.
+ * Handles coordinates format [longitude, latitude] as required by GeoJSON / plot_models.py
+ */
+export function mapPlotFromBackend(plot) {
+  if (!plot) return null;
+
+  // Extract coordinates [longitude, latitude] safely matching plot_models.py
+  const coordinates = plot.coordinates
+    ? [plot.coordinates.longitude, plot.coordinates.latitude]
+    : [0, 0];
+
+  // Extract boundary coordinates if present
+  const boundaryCoords = plot.plot_boundary_geojson?.coordinates?.[0]?.map((pt) => [pt[0], pt[1]]) || [];
+
+  const rawCluster = plot.cluster || plot.locality || "Unknown";
+
+  return {
+    plot_id: plot.plot_id,
+    name: plot.name,
+    locality: clusterToLocality[rawCluster] || rawCluster,
+    locality_description: `${plot.name} (${plot.zoning_type || 'General'} Zoning)`,
+    coordinates,
+    area_sqft: plot.area_sqft,
+    zoning_type: plot.zoning_type,
+    ownership_status: plot.ownership_status,
+    plot_boundary_geojson: boundaryCoords,
+
+    // Extract nested sub-models if populated by backend
+    builder_metrics: plot.builder_metrics || null,
+    investor_metrics: plot.investor_metrics || null,
+    buyer_metrics: plot.buyer_metrics || null,
+  };
+}
+
+/**
+ * Enriches base plot data with extended context payload from backend analysis APIs
+ */
+export function enrichPlotWithContext(plot, data) {
+  if (!plot || !data) return plot;
+
+  const ctx = data.context || {};
+  const builder = ctx.builder || plot.builder_metrics || {};
+  const investor = ctx.investor || plot.investor_metrics || {};
+  const buyer = ctx.buyer || plot.buyer_metrics || {};
+
+  const mappedPlot = {
+    ...plot,
+    locality_description: data.location?.display_name || plot.locality_description,
+
+    // Builder Metrics
+    bearing_capacity_kpa: builder.bearing_capacity_kpa ?? null,
+    water_table_depth_m: builder.water_table_depth_m ?? null,
+    soil_type: builder.soil_type ?? "N/A",
+    flood_risk_zone: builder.flood_risk_zone ?? "low",
+    max_permissible_floors: builder.max_permissible_floors ?? null,
+    utility_access: builder.utility_access ?? { water: false, electricity: false, sewage: false },
+    construction_cost_estimate_per_sqft: builder.construction_cost_estimate_per_sqft ?? null,
+    construction_suitability: builder.construction_suitability ?? "N/A",
+    foundation_recommendation: builder.foundation_recommendation ?? "N/A",
+    groundwater_risk: builder.groundwater_risk ?? "N/A",
+    excavation_difficulty: builder.excavation_difficulty ?? "N/A",
+
+    // Investor Metrics
+    current_price_sqft: investor.current_price_sqft ?? 0,
+    rental_yield_percentage: investor.rental_yield_percentage ?? null,
+    roi_percentage: investor.roi_percentage ?? null,
+    risk_score: investor.risk_score ?? null,
+    infrastructure_development_pipeline: investor.infrastructure_development_pipeline || [],
+
+    // Buyer Metrics
+    schools_nearby: buyer.schools_nearby ?? 0,
+    hospitals_nearby: buyer.hospitals_nearby ?? 0,
+    transit_hubs_nearby: buyer.transit_hubs_nearby ?? 0,
+    nearest_hospital_km: buyer.nearest_hospital_km ?? null,
+    air_quality_index: buyer.air_quality_index ?? null,
+    commute_time_to_city_center_min: buyer.commute_time_to_city_center_min ?? null,
+    top_nearby_schools: buyer.top_nearby_schools || [],
+    top_nearby_hospitals: buyer.top_nearby_hospitals || [],
+    top_nearby_shopping_centres: buyer.top_nearby_shopping_centres || [],
+
+    // AI Summaries & Advisory
+    location_summary: ctx.location_summary || "",
+    property_summary: ctx.property_summary || "",
+    strengths: ctx.strengths || [],
+    weaknesses: ctx.weaknesses || [],
+    investment_recommendation: ctx.investment_recommendation || "",
+    construction_recommendation: ctx.construction_recommendation || "",
+    buyer_recommendation: ctx.buyer_recommendation || "",
+    scores: ctx.scores || {},
+  };
+
+  // Process historical growth rates array safely
+  const basePrice = mappedPlot.current_price_sqft;
+  if (investor.historical_growth_rates && Array.isArray(investor.historical_growth_rates)) {
+    const rates = investor.historical_growth_rates;
+    mappedPlot.historical_growth_rates = rates.map((rate, idx) => {
+      const year = (2021 + idx).toString();
+      const price = Math.round(basePrice * (1 + (rate - (rates[rates.length - 1] || 0)) / 100));
+      return { year, price: price || basePrice };
+    });
+  } else {
+    mappedPlot.historical_growth_rates = [];
+  }
+
+  return mappedPlot;
+}
+// Rename the original hardcoded array
+const BASE_PLOTS = PLOTS_DATA;
+
+// Generate 4 additional variants per base plot (5 total per locality)
+function generatePlotVariants(basePlots) {
+  const allPlots = [];
+  basePlots.forEach((base) => {
+    allPlots.push(base); // keep the original
+    for (let i = 1; i <= 4; i++) {
+      const jitter = i * 0.004; // small coordinate offset so markers don't overlap
+      const variance = 1 + (Math.random() * 0.2 - 0.1); // ±10% numeric variance
+
+      allPlots.push({
+        ...base,
+        plot_id: `${base.plot_id}-V${i}`,
+        name: `${base.name} (Parcel ${i + 1})`,
+        coordinates: [base.coordinates[0] + jitter, base.coordinates[1] + jitter],
+        area_sqft: Math.round(base.area_sqft * variance),
+        bearing_capacity_kpa: Math.round(base.bearing_capacity_kpa * variance),
+        current_price_sqft: Math.round(base.current_price_sqft * variance),
+        roi_percentage: +(base.roi_percentage * variance).toFixed(1),
+        rental_yield_percentage: +(base.rental_yield_percentage * variance).toFixed(1),
+        construction_cost_estimate_per_sqft: Math.round(base.construction_cost_estimate_per_sqft * variance),
+      });
+    }
+  });
+  return allPlots;
+}
+
+// Override the export with the expanded 40-plot set
+export const EXPANDED_PLOTS_DATA = generatePlotVariants(BASE_PLOTS);

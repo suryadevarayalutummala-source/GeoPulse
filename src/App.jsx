@@ -8,7 +8,7 @@ import RightAnalyticsPanel from './components/RightAnalyticsPanel';
 import AiChatAdvisor from './components/AiChatAdvisor';
 import DetailDrawer from './components/DetailDrawer';
 import LoginPage from './components/LoginPage';
-import { PLOTS_DATA } from './data/plots';
+import { EXPANDED_PLOTS_DATA as PLOTS_DATA } from './data/plots';
 
 export default function App() {
   const [viewMode, setViewMode] = useState('landing'); // 'landing' | 'dashboard' | 'login'
