@@ -1,0 +1,38 @@
+deployment.yaml
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myweb
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: myweb
+  template:
+    metadata:
+      labels:
+        app: myweb
+    spec:
+      containers:
+        - name: myweb
+          image: myweb:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 80
+
+
+service.yaml
+
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: myweb-service
+spec:
+  selector:
+    app: myweb
+  ports:
+    - port: 80
+      targetPort: 80
+  type: ClusterIP
