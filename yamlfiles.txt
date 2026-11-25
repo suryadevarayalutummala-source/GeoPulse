@@ -36,3 +36,5 @@ spec:
     - port: 80
       targetPort: 80
   type: ClusterIP
+
+https://chatgpt.com/c/6b06765e-1bec-83e8-9688-780374832074
